@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="methods" name="CucumberBDDFreamWork">
+        <classes>
+          <class name="com.testingfreamwork.test.MainTest">
+             <!-- <methods>
+                  <include name="LoginVWoNegative"/>
+                      <include name="LoginVWoPositive"/>
+              </methods>-->
+          </class>
+        </classes>
+    </test>
+</suite>
